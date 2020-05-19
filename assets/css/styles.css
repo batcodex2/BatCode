@@ -29,6 +29,27 @@ html {
     font-weight: 300;
 }
 
+/** sizeLetter **/
+
+.sizeLetter {
+    font-size: 25px;
+  }
+  
+  .imgSizeLetter {
+    background: url(/assets/img/backrground1.png) no-repeat center center fixed;
+       background-size: cover;
+  }
+
+.bgFont {
+    background-color: #ffffff;
+}
+
+.textInfo {
+    position: top;
+    vertical-align: 50%;
+}
+  /** sizeLetter **/
+
 .navbar {
     min-height: 1rem;
 }
