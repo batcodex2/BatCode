@@ -36,7 +36,7 @@ html {
   }
   
   .imgSizeLetter {
-    background: url(/assets/img/backrground1.png) no-repeat center center fixed;
+    background: url(/assets/img/backrground1.png) no-repeat center center;
        background-size: cover;
   }
 
