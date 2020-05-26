@@ -16,6 +16,9 @@ font-family: 'Bree Serif', serif;
 }
 body {
     background-image: linear-gradient(180deg, #6e45e2 0%, #88d3ce 100%);
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
 } 
 :root {
     --dark: #0a0a0a;
@@ -189,6 +192,8 @@ section {
     font-size: 20px !important;
 }
 
+
+
 /*iconos de las redes sociales de los miebros del team*/
 .social-network{
     color:black;
@@ -202,10 +207,42 @@ section {
     text-decoration: none;
 }
 
-/*tamaño de las fotografias del team*/
-.m-team{
-    height: 480px;
+/** TEAM **/
+#team img {
+    margin-top: -50px;
 }
+
+#team i {
+    font-size: 26px;
+    color: #555;
+}
+
+#team p {
+    font-weight: 500;
+}
+
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover{
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#team .card:hover h3, 
+#team .card:hover i {
+    color: #fff;
+}
+
+/** TEAM **/
 
 /* Descuento de los precios anuales */
 .text-descuento{
